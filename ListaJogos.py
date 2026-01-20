@@ -1,5 +1,7 @@
+# Importação de biblioteca
 import json
 
+# Memória
 def carregar_jogos():
     try:
         
@@ -60,6 +62,7 @@ def remover_jogo():
         print('Entrada inválida. Digite um número. ')
     input('\nPressione "Enter" para voltar ao Menu...')
 
+# Menu Iniciak
 def menu():
     while True:
         print('\n + MENU +')
